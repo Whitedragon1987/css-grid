@@ -1,72 +1,72 @@
-/** {*/
-/*    box-sizing: border-box;*/
-/*}*/
+* {
+    box-sizing: border-box;
+}
 
-/*body{*/
-/*        background-color: white;*/
-/*        display: grid;*/
-/*        grid-gap: 16px;*/
-/*        grid-template-columns: 1fr;*/
-/*        grid-template-rows: 50px auto 50px 50px 50px 50px 50px;*/
-/*        grid-template-areas:*/
-/*            "boxa"*/
-/*            "boxb"*/
-/*            "boxc"*/
-/*            "boxd"*/
-/*            "boxe"*/
-/*            "boxg"*/
-/*            "boxf";*/
-/*     }*/
+body{
+        background-color: white;
+        display: grid;
+        grid-gap: 16px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px auto 50px 50px 50px 50px 50px;
+        grid-template-areas:
+            "boxa"
+            "boxb"
+            "boxc"
+            "boxd"
+            "boxe"
+            "boxg"
+            "boxf";
+     }
 
-/*div{*/
-/*    background-color: indianred;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
+div{
+    background-color: indianred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-/*#boxa{*/
-/*    grid-area: boxa;*/
-/*}*/
+#boxa{
+    grid-area: boxa;
+}
 
-/*#boxb{*/
-/*    align-items: start;*/
-/*    grid-area: boxb;*/
-/*}*/
+#boxb{
+    align-items: start;
+    grid-area: boxb;
+}
 
-/*#boxc{*/
-/*    grid-area: boxc;*/
-/*}*/
+#boxc{
+    grid-area: boxc;
+}
 
-/*#boxd{*/
-/*    grid-area: boxd;*/
-/*}*/
+#boxd{
+    grid-area: boxd;
+}
 
-/*#boxe{*/
-/*    grid-area: boxe;*/
-/*}*/
+#boxe{
+    grid-area: boxe;
+}
 
-/*#boxf{*/
-/*    grid-area: boxf;*/
-/*}*/
+#boxf{
+    grid-area: boxf;
+}
 
-/*#boxg{*/
-/*    grid-area: boxg;*/
-/*    opacity: 0;*/
-/*}*/
+#boxg{
+    grid-area: boxg;
+    opacity: 0;
+}
 
-/*@media screen and (min-width: 375px) {*/
-/*    body{*/
-/*        background-color: white;*/
-/*        display: grid;*/
-/*        grid-gap: 16px;*/
-/*        grid-template-columns: 1fr 1fr 1fr;*/
-/*        grid-template-rows: 50px 174px 100px auto 50px;*/
-/*        grid-template-areas:*/
-/*            "boxa boxc boxc"*/
-/*            "boxb boxc boxc"*/
-/*            "boxb boxe boxd"*/
-/*            "boxb boxe boxg"*/
-/*            "boxf boxf boxf";*/
-/*    }*/
-/*}*/
+@media screen and (min-width: 375px) {
+    body{
+        background-color: white;
+        display: grid;
+        grid-gap: 16px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50px 174px 100px auto 50px;
+        grid-template-areas:
+            "boxa boxc boxc"
+            "boxb boxc boxc"
+            "boxb boxe boxd"
+            "boxb boxe boxg"
+            "boxf boxf boxf";
+    }
+}
