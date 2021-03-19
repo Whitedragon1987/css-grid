@@ -54,6 +54,7 @@ div{
 
 #boxg{
     grid-area: boxg;
+    opacity: 0;
 }
 
 
