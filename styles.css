@@ -1,24 +1,22 @@
-/*Maak hier jouw CSS!*/
 * {
     box-sizing: border-box;
 }
 
 body{
-        background-color: white;
-        display: grid;
-        grid-gap: 16px;
-        grid-template-columns: 1fr;
-        grid-template-rows: 50px auto 50px 50px 50px 50px 50px;
-        grid-template-areas:
-            "boxa"
-            "boxb"
-            "boxc"
-            "boxd"
-            "boxe"
-            "boxg"
-            "boxf";
-     }
-
+    background-color: white;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px auto 50px 50px 50px 50px 50px;
+    grid-template-areas:
+	            "boxa"
+	            "boxb"
+	            "boxc"
+	            "boxd"
+	            "boxe"
+	            "boxg"
+	            "boxf";
+}
 
 div{
     background-color: indianred;
@@ -54,8 +52,8 @@ div{
 
 #boxg{
     grid-area: boxg;
+    opacity: 0;
 }
-
 
 @media screen and (min-width: 375px) {
     body{
@@ -65,10 +63,11 @@ div{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 50px 174px 100px auto 50px;
         grid-template-areas:
-            "boxa boxc boxc"
-            "boxb boxc boxc"
-            "boxb boxe boxd"
-            "boxb boxe boxg"
-            "boxf boxf boxf";
+	            "boxa boxc boxc"
+	            "boxb boxc boxc"
+	            "boxb boxe boxd"
+	            "boxb boxe boxg"
+	            "boxf boxf boxf";
     }
 }
+
